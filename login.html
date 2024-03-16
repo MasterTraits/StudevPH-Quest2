@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>osu | Account</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <nav>
+        <div class="icons">
+            <label for="icon" class="tooltip">
+                <img class="Image" src="./media/Menu.png">
+                <span class="tooltiptext">Menu</span>
+                </label>
+                <input type="checkbox" id="icon" class="toggle">
+                <div class="dropdown-menu"></div>
+            <a href="index.html" class="tooltip">
+                <img class="Image" src="./media/Home.png">
+                <span class="tooltiptext">Home</span>
+                </a>
+            <a href="" class="tooltip">
+                <img class="Image" src="./media/image-removebg-preview (3) (1) (1).png">
+                <span class="tooltiptext">Osu!</span>
+                </a>
+            <a href="" class="tooltip">
+                <img class="Image" src="./media/image-removebg-preview (1).png">
+                <span class="tooltiptext">Catch</span>
+                </a>
+            <a href="" class="tooltip">
+                <img class="Image" src="./media/image-removebg-preview (2).png">
+                <span class="tooltiptext">Mania</span>
+                </a>
+            <a href="" class="tooltip">
+                <img class="Image" src="./media/image-removebg-preview.png">
+                <span class="tooltiptext">Taiko</span>
+                </a> 
+        </div>
+
+        <div style="display:flex;">
+        <div class="misc">  
+            <label for="icon3" class="tooltip">
+                <img class="Image" src="./media/Music.png">
+                <span class="tooltiptext">Toggle<br> Music</span> 
+                </label>
+                <input type="checkbox" id="icon3" class="toggle">
+                <div class="dropdown-settings">
+                    <audio autoplay controls >
+                        <source src="./media/circles!.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            <label for="icon4" class="tooltip">
+                <img class="Image" src="./media/comment.png">
+                <span class="tooltiptext">Contact</span>
+            </label>
+                <input type="checkbox" id="icon4" class="toggle">
+                <div class="dropdown-message">
+                    <p>Message</p>
+                    <div class="announcement">Announcement:<span style="color:rgb(255, 227, 227); text-shadow: 1px 1px 15px black;">No New Updates</span></div>
+                    <div id="message">
+                        <p>Hello! Anonymous. Please post any of your concerns here in the chatbox</p> 
+                        <label>Session has been started</label>  
+                    </div>
+                    <div id="chat">
+                        <input type="text" id="chat">
+                        <input type="submit" class="submit">
+                    </div>
+                </div>
+            <label for="icon5" class="tooltip">
+                <img class="Image" src="./media/Bell_pin.png">
+                <span class="tooltiptext">Alerts</span>
+                </label>
+                <input type="checkbox" id="icon5" class="toggle">
+                <div class="dropdown-notification">
+                    <div class="notification">
+                        Alerts
+                        <img src="./media/Setting_line.png" class="Image">
+                    </div>
+                    <div class="check">
+                        <img src="./media/User_cicrle_duotone.png">
+                        <div>
+                            <b>Admin</b>
+                            This is Sample Title
+                            <p>Lorem Ipsum Dolor amet</p>
+                            <i>Fri 03/15/24</i>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+            <div class="account">
+                <div style="padding:0.3vw;">
+                &nbspAnonymous<br>
+                <a href="./login.html" class="lenk">Login</a> <a href="./login.html" class="lenk">Sign up</a>
+                </div>
+                <img class="user--img" src="./media/User_cicrle_duotone.png">
+                <div class="dropdown-account">
+                    <a href="">Account</a>
+                    <a href="">Settings</a>
+                    <a href="">Support us</a>
+                    <a href="">Feedback</a>
+                </div>
+            </div>  
+        </div>
+    </nav>
+    <!-- Copy and paste this -->
+    <div class="grahh"></div>
+    <div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input type="text" placeholder="Name" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Password" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+            <img class="logo" src="./media/Osu!_Logo_2016.svg.png">
+			<h1>Sign in</h1>
+			<input type="email" placeholder="Email" class="round"/>
+			<input type="password" placeholder="Password"  class="round"/>
+			<a href="#">Forgot your password?</a>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>  
+</body>
+</html>
